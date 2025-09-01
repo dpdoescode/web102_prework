@@ -21,6 +21,9 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -72,4 +75,25 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.leaderboard-container {
+  margin: 2em 0;
+  padding: 1em;
+  background: #f0f8ff;
+  box-shadow: 0 0 30px lightblue;
+  border-radius: 8px;
+}
+
+.leaderboard-container h3 {
+  margin-bottom: 0.5em;
+}
+
+.leaderboard-container ol {
+  padding-left: 1.5em;
+}
+
+.leaderboard-container li {
+  margin-bottom: 0.3em;
+  font-weight: bold;
 }
